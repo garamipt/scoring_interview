@@ -1834,6 +1834,7 @@ dependencies = [
     { name = "numpy" },
     { name = "polars" },
     { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "tensorflow" },
 ]
 
@@ -1852,6 +1853,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "polars", specifier = ">=2.0.0" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "scipy", specifier = ">=1.18.1" },
     { name = "tensorflow", specifier = ">=2.21.0" },
 ]
 
